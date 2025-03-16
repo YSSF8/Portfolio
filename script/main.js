@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     burgerMenu.addEventListener('click', () => {
         rightSide.classList.toggle('active');
-
         const icon = burgerMenu.querySelector('i');
         icon.classList.toggle('fa-bars');
         icon.classList.toggle('fa-xmark');
