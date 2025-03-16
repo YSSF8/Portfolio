@@ -78,10 +78,12 @@ body {
   .nav-bar .right-side.active {
     max-height: 500px;
     padding: 1rem 0;
+    width: 100%;
   }
   .nav-bar .link {
     margin: 0;
     padding: 0.5rem 0;
+    width: 100%;
   }
   .nav-bar .link::before {
     display: none;

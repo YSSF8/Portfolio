@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         icon.classList.toggle('fa-xmark');
     });
 
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', e => {
         if (!e.target.closest('.nav-bar')) {
             rightSide.classList.remove('active');
             const icon = burgerMenu.querySelector('i');
